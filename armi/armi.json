@@ -1,0 +1,72 @@
+{
+    "armi_medie": [
+        {
+            "nome": "Assalto-K",
+            "hand": 0,
+            "short": 2,
+            "medium": 1,
+            "long": 0,
+            "ferite": 2
+        },
+        {
+            "nome": "Assalto-R",
+            "hand": 0,
+            "short": 1,
+            "medium": 2,
+            "long": 0,
+            "ferite": 2
+        },
+        {
+            "nome": "Berelli 12G",
+            "hand": 0,
+            "short": 3,
+            "medium": 0,
+            "long": 0,
+            "ferite": 2
+        },
+        {
+            "nome": "Mozzberg 590",
+            "hand": 1,
+            "short": 2,
+            "medium": 0,
+            "long": 0,
+            "ferite": 2
+        }
+    ],
+    "armi_pesanti": [
+        {
+            "nome": "Victriz .50",
+            "hand": 0,
+            "short": 0,
+            "medium": 0,
+            "long": 3,
+            "ferite": 2
+        },
+        {
+            "nome": "Baffett M28",
+            "hand": 0,
+            "short": 0,
+            "medium": 1,
+            "long": 2,
+            "ferite": 2
+        }
+    ],
+    "armi_leggere": [
+        {
+            "nome": "Pistola 9mm",
+            "hand": 2,
+            "short": 1,
+            "medium": 0,
+            "long": 0,
+            "ferite": 1
+        },
+        {
+            "nome": "Pistola .45",
+            "hand": 2,
+            "short": 0,
+            "medium": 0,
+            "long": 0,
+            "ferite": 2
+        }
+    ]
+}

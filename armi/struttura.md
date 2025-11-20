@@ -4,7 +4,7 @@ Descrive il formato del file JSON che elenca le categorie di armi e le loro stat
 
 ## Schema concettuale
 
-```JSON
+```
 categoria: [
   {
     "nome": string,

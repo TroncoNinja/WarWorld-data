@@ -1,0 +1,70 @@
+{
+    "gadget": [
+        {
+            "nome": "Scudo balistico",
+            "descrizione": [
+                "Lo scudo balistico va a sostituire l'arma nello slot principale.",
+                "Fornisce una copertura aggiuntiva contro i danni da proiettile",
+                "Quando equipaggiato fornisce mezza copertura per i colpi che arrivano frontalmente all'operatore"
+            ]
+        },
+        {
+            "nome": "DI OpenAll",
+            "descrizione": [
+                "dispositivo che permette la creazione di fori in superfici non antiproiettile",
+                "i fori sono abbastanza grandi per permettere il passaggio di un operatore",
+                "Per posizionare o riprendere il gadget l'operatore deve spendere un token azione",
+                "l'attivazione del gadget è un'azione gratuita"
+            ]
+        },
+        {
+            "nome": "Ottica variabile",
+            "descrizione": [
+                "Sostituisce il mirino nello slot per gli organi di mira",
+                "con una azione gratuita l'operatore può scegliere fra short, medium, long e applicare il bonus di +1 come un normale mirino di quella categoria",
+                "al cambio di caratteristica si resetta il bonus"
+            ]
+        },
+        {
+            "nome": "Arma modulare",
+            "descrizione": [
+                "con un’azione gratuita l'operatore imposta la distanza short dell'arma primaria a 3 e riduce la distanza medium e long a 0",
+                "con un altra azione gratuita l'operatore ritorna alle statistiche precedenti dell'arma",
+                "ha un massimo di 3 utilizzi per ogni Operazione"
+            ]
+        },
+        {
+            "nome": "Scanner termico",
+            "descrizione": [
+                "Permette all'operatore di vedere attraverso una superficie non antiproiettile",
+                "Il raggio di azione è di 5m oltre la superficie e non può vedere attraverso superfici multiple"
+            ]
+        },
+        {
+            "nome": "Medikit",
+            "descrizione": [
+                "spedendo un token azione l'operatore può curare una sua ferita o una ferita di un operatore adiacente",
+                "Il medikit ha un massimo di 2 utilizzi per ogni Operazione"
+            ]
+        },
+        {
+            "nome": "Rinforzo",
+            "descrizione": [
+                "rende una superficie antiproiettile",
+                "per posizionare o riprendere il gadget l’operatore deve spendere un token azione",
+                "l’attivazione del gadget è un’azione gratuita",
+                "la superficie massima che può coprire è di 2mq"
+            ]
+        },
+        {
+            "nome": "Drone",
+            "descrizione": [
+                "non può essere utilizzato durante la fase di Ingaggio",
+                "ha una Visione composta da un cerchio di raggio 20m",
+                "per essere mosso va utilizzato un token azione",
+                "tutto ciò che il drone vede viene inviato tramite un feed video all'Operatore",
+                "se il drone è ancora attivo durante la fase di ingaggio, ritorna automaticamente dall'Operatore"
+            ]
+        }
+    ]
+}

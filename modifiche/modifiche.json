@@ -1,0 +1,45 @@
+{
+    "modifiche": [
+        {
+            "nome": "Meta umano - Pesante",
+            "descrizione": [
+                "il tuo DNA è stato alternato con elementi di animali di grande prestanza fisica (es. gorilla, rinoceronte, …).",
+                "Puoi equipaggiare un’arma Media nello slot per arma secondaria"
+            ],
+            "mod": {"heavy_weapon_slot": true}
+        },
+        {
+            "nome": "Meta umano - Leggero",
+            "descrizione": [
+                "il tuo DNA è stato alternato con elementi di animali di grande agilità (es. felini, …).",
+                "Il tuo movimento sale a 15 metri durante la fase Recon.",
+                "Il tuo movimento sale a 4 metri durante la fase Ingaggio."
+            ],
+            "mod": {"recon_movement": 15, "engagement_movement": 4}
+        },
+        {
+            "nome": "Meta umano - Sensoriale",
+            "descrizione": [
+                "il tuo DNA è stato alternato con elementi di animali di grande capacità sensoriale (es. pipistrelli, delfini, …).",
+                "Il cerchio della tua Visione aumenta il suo raggio a 3 metri."
+            ],
+            "mod": {"vision_radius": 3}
+        },
+        {
+            "nome": "Arma ibrida - Velocità",
+            "descrizione": [
+                "I tuoi arti superiori sono stati potenziati con legamenti alla Carbite.",
+                "Ricaricare diventa un'azione con con costo gratuito"
+            ],
+            "mod": {"reload_action_cost": 0}
+        },
+        {
+            "nome": "Arma ibrida - Corazza",
+            "descrizione": [
+                "Il tuo corpo è stato rinforzato con uno strato subcutaneo di Carbite",
+                "Bonus: +1 CA."
+            ],
+            "mod": {"ca_add": 1}
+        }
+    ]
+}

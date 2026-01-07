@@ -5,7 +5,7 @@ Descrive il formato del file JSON che elenca i percorsi di addestramento e i bon
 ## Schema concettuale
 
 ```
-addestramento: [
+[
   {
     "nome": string,
     "descrizione": array of strings, // descrizione riga per riga
@@ -23,24 +23,22 @@ addestramento: [
 ## Esempio
 
 ```JSON
-{
-  "addestramento": [
+[
     {
-      "nome": "Fanteria",
-      "descrizione": [
-        "sei il soldato d'assalto perfetto, eccelli nei combattimenti ravvicinati.",
-        "Bonus: +1 short"
-      ],
-      "mod": {"short_add": 1}
+        "nome": "Fanteria",
+        "descrizione": [
+            "sei il soldato d'assalto perfetto, eccelli nei combattimenti ravvicinati.",
+            "Bonus: +1 short"
+        ],
+        "mod": {"short_add": 1}
     },
     {
-      "nome": "Tiratore",
-      "descrizione": [
-        "un addestramento che comprende le armi a lunga gittata ti ha reso letale per chiunque incroci la tua ottica.",
-        "Bonus: +1 long"
-      ],
-      "mod": {"long_add": 1}
+        "nome": "Tiratore",
+        "descrizione": [
+            "un addestramento che comprende le armi a lunga gittata ti ha reso letale per chiunque incroci la tua ottica.",
+            "Bonus: +1 long"
+        ],
+        "mod": {"long_add": 1}
     }
-  ]
-}
+]
 ```

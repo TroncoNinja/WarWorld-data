@@ -1,0 +1,25 @@
+[
+    {
+        "nome": "Plate Carrier - Reattivo",
+        "descrizione": [
+            "CA base: 1",
+            "cura automaticamente la prima ferita ogni {da bilanciare}"
+        ],
+        "mod": {"ca_base": 1}
+    },
+    {
+        "nome": "Plate Carrier - Standard",
+        "descrizione": [
+            "CA base: 2"
+        ],
+        "mod": {"ca_base": 2}
+    },
+    {
+        "nome": "Plate Carrier - Rinforzato",
+        "descrizione": [
+            "CA base: 3",
+            "dopo 4 metri totali di spostamento durante la fase di ingaggio, l’operatore deve usare l'azione di Recupero"
+        ],
+        "mod": {"ca_base": 3, "forced_recovery": 4}
+    }
+]

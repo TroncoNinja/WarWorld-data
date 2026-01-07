@@ -5,7 +5,7 @@ Descrive il formato del file JSON che elenca le modifiche possibili e i loro eff
 ## Schema concettuale
 
 ```
-modifiche: [
+[
   {
     "nome": string,
     "descrizione": array of strings, // descrizione riga per riga
@@ -23,24 +23,22 @@ modifiche: [
 ## Esempio
 
 ```JSON
-{
-  "modifiche": [
-    {
-      "nome": "Meta umano - Pesante",
-      "descrizione": [
-        "il tuo DNA è stato alternato con elementi di animali di grande prestanza fisica (es. gorilla, rinoceronte, …).",
-        "Puoi equipaggiare un’arma Media nello slot per arma secondaria"
-      ],
-      "mod": {"heavy_weapon_slot": true}
-    },
-    {
-      "nome": "Meta umano - Sensoriale",
-      "descrizione": [
-        "il tuo DNA è stato alternato con elementi di animali di grande capacità sensoriale (es. pipistrelli, delfini, …).",
-        "Il cerchio della tua Visione aumenta il suo raggio a 3 metri."
-      ],
-      "mod": {"vision_radius": 3}
-    }
-  ]
-}
+[
+  {
+    "nome": "Meta umano - Pesante",
+    "descrizione": [
+      "il tuo DNA è stato alternato con elementi di animali di grande prestanza fisica (es. gorilla, rinoceronte, …).",
+      "Puoi equipaggiare un’arma Media nello slot per arma secondaria"
+    ],
+    "mod": {"heavy_weapon_slot": true}
+  },
+  {
+    "nome": "Meta umano - Sensoriale",
+    "descrizione": [
+      "il tuo DNA è stato alternato con elementi di animali di grande capacità sensoriale (es. pipistrelli, delfini, …).",
+      "Il cerchio della tua Visione aumenta il suo raggio a 3 metri."
+    ],
+    "mod": {"vision_radius": 3}
+  }
+]
 ```

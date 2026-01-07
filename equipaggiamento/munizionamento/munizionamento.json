@@ -1,0 +1,51 @@
+{
+    "fucili_assalto": [
+        {
+            "nome": "Alta Velocità",
+            "ferite": 1,
+            "mod": {"confirmation_dice": 1, "hit_dice": -1}
+        },
+        {
+            "nome": "Standard",
+            "ferite": 2
+        }
+    ],
+    "shotgun": [
+        {
+            "nome": "flechette",
+            "ferite": 4,
+            "mod": {"confirmation_dice": -2}
+        },
+        {
+            "nome": "Pallettoni",
+            "ferite": 4,
+            "mod": {"hit_dice": 2}
+        },
+        {
+            "nome": "Slug",
+            "ferite": 2
+        }
+    ],
+    "fucili_precisione": [
+        {
+            "nome": "Alta Velocità",
+            "ferite": 2,
+            "mod": {"confirmation_dice": 1, "hit_dice": -1}
+        },
+        {
+            "nome": "Standard",
+            "ferite": 3
+        }
+    ],
+    "pistole": [
+        {
+            "nome": "Hollow Point",
+            "ferite": 2,
+            "mod": {"confirmation_dice": -1, "hit_dice": 1}
+        },
+        {
+            "nome": "Standard",
+            "ferite": 2
+        }
+    ]
+}

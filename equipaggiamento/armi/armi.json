@@ -1,0 +1,66 @@
+{
+    "fucili_assalto": [
+        {
+            "nome": "AK-74",
+            "hand": 0,
+            "short": 2,
+            "medium": 1,
+            "long": 0
+        },
+        {
+            "nome": "AR-15",
+            "hand": 0,
+            "short": 1,
+            "medium": 2,
+            "long": 0
+        }
+    ],
+    "shotgun": [
+        {
+            "nome": "Benelli M4",
+            "hand": 0,
+            "short": 3,
+            "medium": 0,
+            "long": 0
+        },
+        {
+            "nome": "Mossberg 590",
+            "hand": 1,
+            "short": 2,
+            "medium": 0,
+            "long": 0
+        }
+    ],
+    "fucili_precisione": [
+        {
+            "nome": "Victrix Corvo .50",
+            "hand": 0,
+            "short": 0,
+            "medium": 0,
+            "long": 3
+        },
+        {
+            "nome": "Barrett M82",
+            "hand": 0,
+            "short": 0,
+            "medium": 1,
+            "long": 2
+        }
+    ],
+    "pistole": [
+        {
+            "nome": "Glock 17",
+            "hand": 2,
+            "short": 1,
+            "medium": 0,
+            "long": 0
+        },
+        {
+            "nome": "Colt 1911",
+            "hand": 2,
+            "short": 0,
+            "medium": 0,
+            "long": 0
+        }
+    ]
+}
